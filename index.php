@@ -11,7 +11,7 @@ $moneylist = $money->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-if (isset($_GET['display'])){
+if (getenv('display')==true){
     foreach ($moneylist as $money):
     $trn=$money['number'];
     echo $trn;
