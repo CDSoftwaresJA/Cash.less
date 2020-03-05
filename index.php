@@ -1,5 +1,6 @@
 <?php 
-
+echo 'Database';
+echo "<br>";
 $host = getenv('IP');
 $username = 'Cduncan';
 $password = 'Damdog_101';

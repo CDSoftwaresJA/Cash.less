@@ -1,5 +1,6 @@
 <?php
 session_start();
+echo 'Requests';
 $cURLConnection = curl_init();
 curl_setopt($cURLConnection, CURLOPT_URL, $_GET['request']);
 curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
